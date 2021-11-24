@@ -36,9 +36,7 @@
               <a class="header-link links link" href="./index.html">Студия</a>
             </li>
             <li class="header-item">
-              <a class="current links link" href="./portfolio.html"
-                >Портфолио</a
-              >
+              <a class="current links link" href="./portfolio.html">Портфолио</a>
             </li>
             <li class="header-item">
               <a class="header-link links link" href="/">Контакты</a>
@@ -47,12 +45,17 @@
         </nav>
         <ul class="header-contacts list">
           <li class="header-item">
-            <a class="header-mail links link" href="mailto:info@devstudio.com"
+            <a class="header-mail links link" href="mailto:info@devstudio.com">
+              <svg class="header-social-icon" width="20" height="20">
+                <use href="./images/icons.svg#icon-mail"></use></svg
               >info@devstudio.com</a
             >
           </li>
+
           <li class="header-item">
             <a class="header-tel links link" href="tel:+380961111111"
+              ><svg class="header-social-icon" width="20" height="20">
+                <use href="./images/icons.svg#icon-telephone"></use></svg
               >+38 096 111 11 11</a
             >
           </li>
@@ -72,9 +75,7 @@
               <button class="main-btn mainsbtn" type="button">Веб-сайты</button>
             </li>
             <li class="main-item">
-              <button class="main-btn mainsbtn" type="button">
-                Приложения
-              </button>
+              <button class="main-btn mainsbtn" type="button">Приложения</button>
             </li>
             <li class="main-item">
               <button class="main-btn mainsbtn" type="button">Дизайн</button>
@@ -93,22 +94,14 @@
               </div>
             </li>
             <li class="portfolio-item">
-              <img
-                src="./images/img9.jpg"
-                alt="Постер New Orlean vs Golden Star"
-                width="370"
-              />
+              <img src="./images/img9.jpg" alt="Постер New Orlean vs Golden Star" width="370" />
               <div class="porfolio-item-text">
                 <h2 class="fourth-tittle">Постер New Orlean vs Golden Star</h2>
                 <p class="fourth-text" lang="ru">Дизайн</p>
               </div>
             </li>
             <li class="portfolio-item">
-              <img
-                src="./images/img10.jpg"
-                alt="Ресторан Seafood"
-                width="370"
-              />
+              <img src="./images/img10.jpg" alt="Ресторан Seafood" width="370" />
               <div class="porfolio-item-text">
                 <h2 class="fourth-tittle">Ресторан Seafood</h2>
                 <p class="fourth-text" lang="ru">Приложение</p>
@@ -129,22 +122,14 @@
               </div>
             </li>
             <li class="portfolio-item">
-              <img
-                src="./images/img13.jpg"
-                alt="Inspiration has no Borders"
-                width="370"
-              />
+              <img src="./images/img13.jpg" alt="Inspiration has no Borders" width="370" />
               <div class="porfolio-item-text">
                 <h2 class="fourth-tittle">Inspiration has no Borders</h2>
                 <p class="fourth-text" lang="ru">Веб-сайт</p>
               </div>
             </li>
             <li class="portfolio-item">
-              <img
-                src="./images/img14.jpg"
-                alt="Издание Limited Edition"
-                width="370"
-              />
+              <img src="./images/img14.jpg" alt="Издание Limited Edition" width="370" />
               <div class="porfolio-item-text">
                 <h2 class="fourth-tittle">Издание Limited Edition</h2>
                 <p class="fourth-text" lang="ru">Дизайн</p>
@@ -158,11 +143,7 @@
               </div>
             </li>
             <li class="portfolio-item">
-              <img
-                src="./images/img16.jpg"
-                alt="Growing Business"
-                width="370"
-              />
+              <img src="./images/img16.jpg" alt="Growing Business" width="370" />
               <div class="porfolio-item-text">
                 <h2 class="fourth-tittle">Growing Business</h2>
                 <p class="fourth-text" lang="ru">Приложение</p>
@@ -173,8 +154,9 @@
       </section>
     </main>
     <!-- Подвал сайта-->
-    <footer class="footer">
-      <div class="container">
+  <footer class="footer">
+      <div class="container footer-social">
+        <div class="logo-adress">
         <a class="header-logo-footer logos link" href="./index.html"
           >Web<span class="footer-logos logos link">Studio</span></a
         >
@@ -183,18 +165,46 @@
             <li class="footer-item">г. Киев, пр-т Леси Украинки, 26</li>
 
             <li class="footer-mail-item">
-              <a
-                class="footer-mail footer-links link"
-                href="mailto:info@example.com"
+              <a class="footer-mail footer-links link" href="mailto:info@example.com"
                 >info@example.com</a
               >
             </li>
             <li>
-              <a class="footer-tel footer-links link" href="tel:+380991111111"
-                >+38 099 111 11 11</a
-              >
+              <a class="footer-tel footer-links link" href="tel:+380991111111">+38 099 111 11 11</a>
             </li>
           </ul>
+          </div>
+          <div class="logo-adress-social">
+          <h2 class="footer-social-title">Присоединяйтесь</h2>
+          <ul class="footer-social-list list">
+            
+            <li class="footer-social-item">
+              <a href="" class="footer-social-link">
+                <svg class="footer-social-icon" width="20" height="20">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social-item">
+              <a href="" class="footer-social-link"
+                ><svg class="footer-social-icon" width="20" height="20">
+                  <use href="./images/icons.svg#icon-twitter"></use></svg
+              ></a>
+            </li>
+            <li class="footer-social-item">
+              <a href="" class="footer-social-link"
+                ><svg class="footer-social-icon" width="20" height="20">
+                  <use href="./images/icons.svg#icon-facebook"></use></svg
+              ></a>
+            </li>
+            <li class="footer-social-item">
+              <a href="" class="footer-social-link"
+                ><svg class="footer-social-icon" width="20" height="20">
+                  <use href="./images/icons.svg#icon-linkedin"></use></svg
+              ></a>
+            </li>
+          </ul>
+          </div>
         </address>
       </div>
     </footer>
