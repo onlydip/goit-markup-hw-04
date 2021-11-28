@@ -475,24 +475,20 @@ body {
   width: 170px;
   height: 92px;
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .clients-item:hover,
 .clients-item:focus {
   border: 1px solid #2196f3;
 }
 .clients-item-icon {
-  padding-top: 25px;
-  padding-bottom: 25px;
-  padding-right: 0 auto;
-  padding-left: 0 auto;
-  width: 100%;
-  height: 100%;
+  width: 106px;
+  height: 60px;
   fill: currentColor;
 }
 
 .clients-item-link {
-  width: 100%;
-  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
